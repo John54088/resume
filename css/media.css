@@ -8,6 +8,7 @@
 @media(min-width:768px){
     .box{
         max-width: 720px;
+        margin: auto;
     }
     .col-40{
         flex: 0 0 40%;
