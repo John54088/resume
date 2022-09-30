@@ -165,26 +165,27 @@ header{
     letter-spacing: 2px;
     color: rgb(154, 156, 51);
 }
-.edu-content-box:hover .edu-img img{
+.edu-content-box:hover .edu-img{
     transform: scale(1.2);
 }
 .edu-content-box{
     overflow: hidden;
     height: 500px;
 }
-.edu-img img{
-    transition: 0.5s;
-    display: block;
-}
 .edu-img{
-    overflow: hidden;
+    transition: 0.5s;
+    background-size: cover;
+    background-position: center;
     height: 450px;
 }
+.edu-img-box{
+    overflow: hidden;
+}
 .bg-img{
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
     background-size: cover;
     background-position: center;
     border-bottom: rgb(154, 156, 51) 5px solid;
@@ -196,13 +197,13 @@ header{
 .adv-content-box:hover .hover-overlay{
     opacity: 1;
     visibility: visible;
-    top: 0px;
+    top: 10px;
 }
 .hover-overlay {
     top: 350px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
     background-color: rgb(154, 156, 51);
     visibility: hidden;
     transition: 0.5s;
