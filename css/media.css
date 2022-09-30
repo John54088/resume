@@ -1,0 +1,53 @@
+
+.col-100{
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+@media(min-width:768px){
+    .box{
+        max-width: 720px;
+    }
+    .col-40{
+        flex: 0 0 40%;
+        max-width: 40%;
+        width: 40%;
+    }
+    .col-33{
+        flex: 0 0 33%;
+        min-width: 33%;
+        width: 33%;
+    }
+    .col-25{
+        flex: 0 0 25%;
+        max-width: 25%;
+        width: 25%;
+    }
+    footer br{
+        display: none;
+    }
+}
+@media screen and (max-width:767px){
+    .links{
+        display: none;
+    }
+    .rwd-menu-icon{
+        display: block;
+        font-size: 30px;
+        line-height: 110px;
+        right: 30px;
+    }
+    footer span{
+        display: none;
+    }
+    .sub-content, .edu-content, .adv-content{
+        padding: 0 20px;
+    }
+    .about-content{
+        display: block;
+    }
+    .content-l, .content-r{
+        margin: 0 20px;
+    }
+}
